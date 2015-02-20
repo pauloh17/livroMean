@@ -1,0 +1,6 @@
+// app/controllers/home.js
+	var c = {};
+	c.index = function(req, res) {
+		res.render('index', {nome: 'Express'});
+	};
+    module.exports = c;

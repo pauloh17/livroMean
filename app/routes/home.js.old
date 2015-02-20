@@ -1,0 +1,5 @@
+// /app/routes/home.js
+//var homecontroller = require('../controllers/home');
+module.exports = function(app) {
+	app.get('/index', app.controllers.home.index);
+}
